@@ -98,7 +98,7 @@ const resolvers = {
         }
     },
     createUser: (obj, args, context) => {
-        userData.push({
+        const newUser = {
             id: uuidv4(),
             name: args.input.name,
             age: args.input.age,
@@ -106,9 +106,11 @@ const resolvers = {
                 first: args.input.address,
             },
             points: 0,
-        })
+        }
+        userData.push(newUser);
+        return newUser;
     }
-  }
+  },
 }
 
 const executableSchema = makeExecutableSchema({

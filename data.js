@@ -7,7 +7,7 @@ export const data = {
             name: "Emma",
             age: 24,
             address: {
-                first: "Somewhere",
+                first: "123 Fake Street",
             },
             points: 3,
         },
@@ -16,7 +16,7 @@ export const data = {
             name: "Noah",
             age: 24,
             address: {
-                first: "Somewhere",
+                first: "298 W 12th Ave",
             },
             points: 7,
         },
@@ -25,7 +25,7 @@ export const data = {
             name: "James",
             age: 24,
             address: {
-                first: "Somewhere",
+                first: "4877 Cedar Street",
             },
             points: 0,
         },
@@ -34,7 +34,7 @@ export const data = {
             name: "William",
             age: 24,
             address: {
-                first: "Somewhere",
+                first: "321 W 65th Ave",
             },
             points: 0,
         },
@@ -43,7 +43,7 @@ export const data = {
             name: "Olivia",
             age: 24,
             address: {
-                first: "Somewhere",
+                first: "#512 982 W 23rd Ave",
             },
             points: 1,
         },
