@@ -23,3 +23,14 @@ Address field is an object with a property “First”. This was added in case t
 Starting the project locally has dummy data for 5 users. 
 
 ids created using the uuid package
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
